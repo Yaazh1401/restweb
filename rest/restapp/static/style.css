@@ -1,0 +1,93 @@
+nav{
+    background-image: url('logo.jpg');
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-attachment: fixed;
+    background-position: center;
+    height:1031px;
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+nav ul li{
+    text-align: center ;
+    margin: 0 100px;
+}
+nav ul li a{
+    text-align: center ;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #007BFF;
+}
+nav ul li a.active{
+    color: #007BFF;
+    text-decoration: underline;
+}
+nav ul li a.active:hover{
+    text-decoration: none;
+}
+nav ul li a:visited{
+    color: #ffffff;
+}
+nav ul li a:visited:hover{
+    color: #007BFF;
+}
+body{
+    background-image: url('home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 30px;
+}
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+img{
+    border-radius: 50%;
+}
+a{
+
+    text-align: left;
+    text-decoration: none;
+    color: #2e0c35;
+    font-size: 25px;
+    font-weight: bold;
+}
